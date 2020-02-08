@@ -4,19 +4,21 @@ html{
 }
 
 .row {
-    max-width:1140px;
+    max-width: 1140px;
     margin: 0 auto 0 auto;
 }
 header{
     height: 100vh;
-    background-image: url(img/background2.png);
+    background-image:url(img/background2.png);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 .logo{
     float: right;
-    height: 100px;
+    height: 110px;
     margin-top: 20px;
+    margin-right: 50px;
     
 }
 .the-front {
@@ -25,5 +27,76 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.container {
+    float: right;
+    margin-top: ;
+    padding-top: 50px
+}
+/*"plese enter your name" design*/
+.name{
+    color: #535252;
+    margin-left: 60px;
+    font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+/*this the format of the coachB names */
+
+.names {
+    width: 500px;
+    display: inline-block;
+    font-family: 'Fredoka One', cursive, sans-serif;
+    font-size: 20px;
+    color: #535252;
+    
+    
+}
+
+/*BUTTON!*/
+/*slot is the class for the button (get your valmate!)*/
+.slot{
+    background-color: #ba2323;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300px;
+    border-radius: 200px;
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+}
+
+.second-slot:link,
+.second-slot:visited{
+    padding: 10px 100px;
+    width: 250px;
+    text-transform: uppercase;
+    font-size: 20px
+    
+}
+
+.second-slot:hover,
+.second-slot:active{
+    padding: 10px 100px;
+    width: 250px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: white;
+    color: #696565;
+    transition: background-color 0.2s, color 0.2s    
+}
 
 
+/*the form to input the name*/
+#fname {
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 200px;
+    width: 380px;
+    height: 19px;
+    font-size: 30px;
+    color: #ba2323;
+    padding: 10px 30px;
+    font-family: 'Fredoka One', cursive, sans-serif;
+}
