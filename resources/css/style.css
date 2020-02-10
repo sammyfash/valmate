@@ -48,6 +48,7 @@ header{
     font-family: 'Fredoka One', cursive, sans-serif;
     font-size: 20px;
     color: #535252;
+    text-align: center;
     
     
 }
@@ -118,11 +119,12 @@ header{
   }
   /* Modal Content */
   .modal-content {
-    background-color: pink;
+    background-color: #fde0e5;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 40%;
+    text-align: center;
   }
   /* The Close Button */
   .close {
